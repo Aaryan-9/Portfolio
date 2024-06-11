@@ -14,7 +14,7 @@ function App() {
   return (
     <div class="flex flex-col justify-center">
       <header class="flex  h-20  opacity-85 rounded-2xl shrink-0  xl:md:mx-40  lg:mx-30 md:mx-10 max-sm:m-8 mt-8 max-xl:mb-6 ">
-        <a class="mr-6 flex items-center" href="#">
+        <a class="mr-6 flex items-center" href="">
           <span class="text-4xl md:text-5xl font-bold jersey-25-charted-regular ">
             Aaryan
           </span>
@@ -23,13 +23,13 @@ function App() {
         <div class="ml-auto  items-center gap-4 flex">
           <a
             class="inline-flex h-9 w-max items-center justify-center   rounded-md text-lg px-4 py-2 md:text-2xl font-semibold transition-colors hover:bg-gray-50 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 "
-            href="#"
+            href="#contact"
           >
             Contact
           </a>
           <a
             class="inline-flex h-9 w-max items-center text-lg md:text-2xl font-semibold  justify-center rounded-md  px-4 py-2   transition-colors hover:bg-gray-50 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 "
-            href="#"
+            href="#projects"
           >
             Projects
           </a>
@@ -57,7 +57,10 @@ function App() {
           <Skills />
         </div>
       </div>
-      <div className="xl:px-28 md:px-10 lg:px-20 lg:mt-40 xl:mt-20">
+      <div
+        id="projects"
+        className="xl:px-28 md:px-10 lg:px-20 lg:mt-40 xl:mt-20"
+      >
         <Projects />
       </div>
       <div className="md:mt-12 md:grid md:grid-rows-3 md:grid-cols-3 xl:px-40 lg:px-30 md:px-10 h-[35rem] gap-5  ">
@@ -71,7 +74,10 @@ function App() {
           <Quotes />
         </div>
       </div>
-      <div className="max-sm:mt-[36rem] max-sm:ml-4 max-sm:mr-4 mt-24">
+      <div
+        id="contact"
+        className="max-sm:mt-[36rem] max-sm:ml-4 max-sm:mr-4 mt-24"
+      >
         <Contact />
       </div>
       <footer className="h-[5rem] mt-32">
