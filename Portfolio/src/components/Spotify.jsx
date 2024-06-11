@@ -5,7 +5,7 @@ function Spotify() {
     <div className=" rounded-2xl  max-sm:m-8 overflow-hidden bg-blue-950 flex flex-col justify-center items-center  md:h-full md:w-full">
       <iframe
         title="Spotify Embed: Recommendation Playlist "
-        src={`https://open.spotify.com/embed/playlist/04IIYoRJkYtA3FnsiaoTxF?utm_source=generator&theme=0`}
+        src={`https://open.spotify.com/embed/playlist/5ejUDnlN16AzobpPoJW1Ly?utm_source=generator&theme=0`}
         width="100%"
         height="100%"
         style={{ minHeight: "480px", fontSize: "2rem" }}
