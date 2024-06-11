@@ -1,6 +1,7 @@
 import React from "react";
 import Qissaa from "../assets/Qissaa.png";
 import Badge from "../assets/Badge.png";
+import real from "../assets/real.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
@@ -93,25 +94,26 @@ function Projects() {
           <div className="bg-red-500   rounded-lg  flex flex-col md:flex-row hover:transition hover:ease-in-out hover:translate-x-2 hover:translate-y-2">
             <div className=" flex items-center justify-center p-6">
               <img
-                src={Badge}
+                src={real}
                 alt="Image"
                 width="200"
                 height="200"
-                style={{ aspectRatio: "200 / 200", objectFit: "contain" }}
+                className="rounded-full"
+                style={{ aspectRatio: "200 / 200", objectFit: "cover" }}
               />
             </div>
             <div className="w-full mt-1 md:w-[80%] p-8">
               <div className=" text-3xl cursor-default font-bold  text-indigo-600">
-                IIIT Kota Alumni Connect Portal
+                Real Estate with Chat Application
               </div>
               <p className="text-black cursor-default text-lg mt-4 mb-4">
-                This application connects IIIT Kota alumni with their peers and
-                juniors, fostering a vibrant community. Registered alumni can
-                stay updated on institute events and activities.
+                Full stack Real Estate App real-time chat functionality. An
+                attempt to learn web sockets and implement them in a real-world
+                application. Project is still under development.
               </p>
               <div>
                 <div className="flex cursor-default justify-start font-semibold text-md">
-                  React, Tailwind, Node, Express, MongoDB, Material UI
+                  React, Node, Express, MongoDB, Socekt.io, Prisma.
                 </div>
                 <div className="flex justify-end mt-4">
                   <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-blue-950 text-white hover:bg-blue-900 h-10 px-4 py-2">
