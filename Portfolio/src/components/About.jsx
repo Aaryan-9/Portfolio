@@ -2,7 +2,7 @@ import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 function About() {
   const [text] = useTypewriter({
-    words: ["a Developer", "a UI/UX Designer", "a DSA Enthusiast"],
+    words: ["a Full Stack Developer", "a UI/UX Designer", "a DSA Enthusiast"],
     loop: {},
     typeSpeed: 85,
     deleteSpeed: 50,
@@ -25,11 +25,11 @@ function About() {
         </div>
       </div>
       <p className="pl-5 pr-5 pt-3 pb-5 righteous-regular text-xl text-pink-950 font-semibold leading-relaxed">
-        I am always eager to push the boundaries of what’s possible. My love for
-        problem-solving and keen eye for detail drive me to create innovative
-        solutions. Whether I’m crafting beautiful interfaces or tackling complex
-        algorithmic challenges, my dedication and expertise shine through in
-        every project. Welcome to my portfolio.
+        I am a Pre-Final year student at IIIT Kota. My love for problem-solving
+        and keen eye for detail drive me to create innovative solutions. Whether
+        I’m crafting beautiful interfaces or tackling complex algorithmic
+        challenges, my dedication and expertise shine through in every project.
+        Welcome to my portfolio.
       </p>
     </div>
   );
