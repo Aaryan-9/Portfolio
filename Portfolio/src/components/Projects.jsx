@@ -39,14 +39,20 @@ function Projects() {
                   React, Tailwind, Express, Node, MongoDB
                 </div>
                 <div className="flex justify-end mt-4">
-                  <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-blue-950 text-white hover:bg-blue-900 h-10 px-4 py-2">
-                    <FontAwesomeIcon
-                      icon={faGithub}
-                      size="lg"
-                      className="mr-2 inline-flex items-center  justify-center"
-                    />
-                    Github
-                  </button>
+                  <a
+                    href="https://github.com/404-GS-IIIT-Kota/404-GS-Qissa"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-blue-950 text-white hover:bg-blue-900 h-10 px-4 py-2">
+                      <FontAwesomeIcon
+                        icon={faGithub}
+                        size="lg"
+                        className="mr-2 inline-flex items-center  justify-center"
+                      />
+                      Github
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -77,14 +83,20 @@ function Projects() {
                   React, Tailwind, Node, Express, MongoDB, Material UI
                 </div>
                 <div className="flex justify-end mt-4">
-                  <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-blue-950 text-white hover:bg-blue-900 h-10 px-4 py-2">
-                    <FontAwesomeIcon
-                      icon={faGithub}
-                      size="lg"
-                      className="mr-2 inline-flex items-center  justify-center"
-                    />
-                    Github
-                  </button>
+                  <a
+                    href="https://github.com/HTC2-0/Alumni-Portal"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-blue-950 text-white hover:bg-blue-900 h-10 px-4 py-2">
+                      <FontAwesomeIcon
+                        icon={faGithub}
+                        size="lg"
+                        className="mr-2 inline-flex items-center  justify-center"
+                      />
+                      Github
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -116,14 +128,20 @@ function Projects() {
                   React, Node, Express, MongoDB, Socekt.io, Prisma.
                 </div>
                 <div className="flex justify-end mt-4">
-                  <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-blue-950 text-white hover:bg-blue-900 h-10 px-4 py-2">
-                    <FontAwesomeIcon
-                      icon={faGithub}
-                      size="lg"
-                      className="mr-2 inline-flex items-center  justify-center"
-                    />
-                    Github
-                  </button>
+                  <a
+                    href="https://github.com/Aaryan-9/Real-Estate-with-Chat-Application"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-blue-950 text-white hover:bg-blue-900 h-10 px-4 py-2">
+                      <FontAwesomeIcon
+                        icon={faGithub}
+                        size="lg"
+                        className="mr-2 inline-flex items-center  justify-center"
+                      />
+                      Github
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
