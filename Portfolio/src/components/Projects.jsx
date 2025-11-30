@@ -1,145 +1,68 @@
 import React from "react";
-import Qissaa from "../assets/Qissaa.png";
-import Badge from "../assets/Badge.png";
-import real from "../assets/real.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 function Projects() {
   return (
     <>
-      <div className="flex max-sm:m-8 text-7xl hover:transition-colors  hover:text-gray-500 text-white righteous-regular justify-center  items-center">
+      <div className="flex max-sm:m-8 text-7xl hover:transition-colors hover:text-gray-500 text-white righteous-regular justify-center items-center">
         Projects
       </div>
-      <div className="flex flex-col justify-center items-center max-sm:m-4  ">
+      <div className="flex flex-col justify-center items-center max-sm:m-4">
         <div className="w-full mt-24">
-          <div className="bg-yellow-500   rounded-lg  flex flex-col md:flex-row hover:transition hover:ease-in-out hover:translate-x-2 hover:translate-y-2">
-            <div className=" flex items-center justify-center p-6">
-              <img
-                src={Qissaa}
-                alt="Image"
-                width="200"
-                height="200"
-                className="rounded-full"
-                style={{ aspectRatio: "200 / 200", objectFit: "cover" }}
-              />
-            </div>
-            <div className="w-full mt-1 md:w-[80%] p-8">
-              <div className=" text-3xl cursor-default font-bold text-indigo-600">
-                Qissa - A New Way For Equality
+          <div className="bg-indigo-950 rounded-lg flex flex-col md:flex-row hover:transition hover:ease-in-out hover:translate-x-2 hover:translate-y-2 border border-indigo-800">
+            {/* Removed Image section as no image was provided for AI Career Hub yet, keeping it text focused for now or could use a placeholder if needed. 
+                If user wants an image, we can add one later. For now, full width text. 
+            */}
+            <div className="w-full p-8">
+              <div className="text-3xl cursor-default font-bold text-blue-400">
+                AI-Career Hub
               </div>
-              <p className="text-black cursor-default text-lg mt-4 mb-4">
-                Qissa is a social media platform that aims to empower LGBTQ+
-                individuals worldwide by providing them with a dedicated space
-                to celebrate their identities, express their opinions, and
-                access relevant info.
+              <p className="text-gray-300 cursor-default text-lg mt-4 mb-4">
+                A full-stack AI-powered career guidance platform with skill assessments, resume analysis, and personalized career recommendations.
               </p>
+              <ul className="list-disc list-outside ml-5 text-gray-400 mb-6 space-y-2">
+                <li>Developed a full-stack AI-powered career guidance platform with skill assessments, resume analysis, and personalized career recommendations using <strong>Next.js</strong>, <strong>MongoDB</strong>, and <strong>Gemini AI</strong>.</li>
+                <li>Directed the comprehensive development of both frontend and backend for a full-stack application, integrating <strong>NextAuth</strong> to establish Google authentication which improved user login convenience by <strong>70%</strong> and increased retention.</li>
+                <li>AI-driven skill assessment proctoring using <strong>Python</strong>, enhancing credibility while integrating intelligent career insights.</li>
+              </ul>
+              
               <div>
-                <div className="flex cursor-default justify-start font-semibold text-md">
-                  React, Tailwind, Express, Node, MongoDB
+                <div className="flex flex-wrap gap-2 cursor-default justify-start font-semibold text-md mb-6">
+                   {["Next.js", "Tailwind CSS", "Python", "Gemini AI", "MongoDB"].map((tech) => (
+                      <span key={tech} className="px-3 py-1 bg-indigo-900 text-indigo-200 rounded-full text-sm">
+                        {tech}
+                      </span>
+                   ))}
                 </div>
-                <div className="flex justify-end mt-4">
+                <div className="flex justify-end gap-4 mt-4">
                   <a
-                    href="https://github.com/404-GS-IIIT-Kota/404-GS-Qissa"
+                    href="https://github.com/Arjun-v1-ai/AI-Career-Hub"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-blue-950 text-white hover:bg-blue-900 h-10 px-4 py-2">
+                    <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-blue-600 text-white hover:bg-blue-700 h-10 px-4 py-2">
                       <FontAwesomeIcon
                         icon={faGithub}
                         size="lg"
-                        className="mr-2 inline-flex items-center  justify-center"
+                        className="mr-2"
                       />
-                      Github
+                      GitHub
                     </button>
                   </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className=" w-full mt-16">
-          <div className="bg-green-500   rounded-lg  flex flex-col md:flex-row hover:transition hover:ease-in-out hover:translate-x-2 hover:translate-y-2">
-            <div className="flex items-center justify-center p-6">
-              <img
-                src={Badge}
-                alt="Image"
-                width="200"
-                height="200"
-                style={{ aspectRatio: "200 / 200", objectFit: "contain" }}
-              />
-            </div>
-            <div className="w-full mt-1 md:w-[80%] p-8">
-              <div className=" text-3xl cursor-default font-bold  text-indigo-600">
-                IIIT Kota Alumni Connect Portal
-              </div>
-              <p className="text-black cursor-default text-lg mt-4 mb-4">
-                This application connects IIIT Kota alumni with their peers and
-                juniors, fostering a vibrant community. Registered alumni can
-                stay updated on institute events and activities.
-              </p>
-              <div>
-                <div className="flex cursor-default justify-start font-semibold text-md">
-                  React, Tailwind, Node, Express, MongoDB, Material UI
-                </div>
-                <div className="flex justify-end mt-4">
                   <a
-                    href="https://github.com/HTC2-0/Alumni-Portal"
+                    href="https://ai-career-hub-v1.onrender.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-blue-950 text-white hover:bg-blue-900 h-10 px-4 py-2">
+                    <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-green-600 text-white hover:bg-green-700 h-10 px-4 py-2">
                       <FontAwesomeIcon
-                        icon={faGithub}
+                        icon={faGlobe}
                         size="lg"
-                        className="mr-2 inline-flex items-center  justify-center"
+                        className="mr-2"
                       />
-                      Github
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="w-full mt-16">
-          <div className="bg-red-500   rounded-lg  flex flex-col md:flex-row hover:transition hover:ease-in-out hover:translate-x-2 hover:translate-y-2">
-            <div className=" flex items-center justify-center p-6">
-              <img
-                src={real}
-                alt="Image"
-                width="200"
-                height="200"
-                className="rounded-full"
-                style={{ aspectRatio: "200 / 200", objectFit: "cover" }}
-              />
-            </div>
-            <div className="w-full mt-1 md:w-[80%] p-8">
-              <div className=" text-3xl cursor-default font-bold  text-indigo-600">
-                Real Estate with Chat Application
-              </div>
-              <p className="text-black cursor-default text-lg mt-4 mb-4">
-                Full stack Real Estate App real-time chat functionality. An
-                attempt to learn web sockets and implement them in a real-world
-                application. Project is still under development.
-              </p>
-              <div>
-                <div className="flex cursor-default justify-start font-semibold text-md">
-                  React, Node, Express, MongoDB, Socekt.io, Prisma.
-                </div>
-                <div className="flex justify-end mt-4">
-                  <a
-                    href="https://github.com/Aaryan-9/Real-Estate-with-Chat-Application"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-blue-950 text-white hover:bg-blue-900 h-10 px-4 py-2">
-                      <FontAwesomeIcon
-                        icon={faGithub}
-                        size="lg"
-                        className="mr-2 inline-flex items-center  justify-center"
-                      />
-                      Github
+                      Live Demo
                     </button>
                   </a>
                 </div>

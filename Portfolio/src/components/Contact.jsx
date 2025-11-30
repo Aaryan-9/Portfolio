@@ -70,7 +70,7 @@ function Contact() {
         },
         (error) => {
           setLoading(false);
-          console.error(error);
+          console.error("EmailJS Error:", error);
           toast.error("Ahh, something went wrong. Please try again.");
         }
       );

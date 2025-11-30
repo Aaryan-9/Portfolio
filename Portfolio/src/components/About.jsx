@@ -25,11 +25,10 @@ function About() {
         </div>
       </div>
       <p className="pl-5 pr-5 pt-3 pb-5 righteous-regular text-xl text-pink-950 font-semibold leading-relaxed">
-        I am a Pre-Final year student at IIIT Kota. My love for problem-solving
-        and keen eye for detail drive me to create innovative solutions. Whether
-        I’m crafting beautiful interfaces or tackling complex algorithmic
-        challenges, my dedication and expertise shine through in every project.
-        Welcome to my portfolio.
+        I am a Pre-Final year student at IIIT Kota and an SDE Intern at Cashfree Payments. 
+        My passion lies in building scalable systems and AI-driven solutions. 
+        From orchestrating autonomous agents to optimizing distributed systems, 
+        I love solving complex problems with code. Welcome to my portfolio.
       </p>
     </div>
   );

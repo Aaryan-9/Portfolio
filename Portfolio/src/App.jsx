@@ -14,6 +14,7 @@ import Loader from "./assets/Loader.json";
 import Lottie from "lottie-react";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import Experience from "./components/Experience";
 function App() {
   const [loading, setLoading] = useState(true);
 
@@ -59,6 +60,12 @@ function App() {
           <div className="xl:col-span-3 xl:row-span-2 lg:col-span-5 md:col-span-3">
             <Skills />
           </div>
+        </div>
+        <div
+          id="experience"
+          className="xl:px-28 md:px-10 lg:px-20 lg:mt-40 xl:mt-20"
+        >
+          <Experience />
         </div>
         <div
           id="projects"
