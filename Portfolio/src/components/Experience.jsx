@@ -26,24 +26,55 @@ function Experience() {
               </div>
               
               <ul className="list-none space-y-4 text-gray-300 text-lg mb-8">
+
                 <li className="flex items-start">
+
                   <span className="text-yellow-500 mr-3 mt-1">▹</span>
+
                   <span>
-                    Designed and deployed internal <strong className="text-white">MCP servers</strong> and autonomous AI agents, enabling teams to <strong className="text-white">self-serve insights</strong> and reducing data lookup time from hours to <strong className="text-white">under 30 seconds</strong>.
+
+                    Built <strong className="text-white">Cashfree Here</strong>, a plugin enabling merchants to add payment tools to OpenAI ChatGPT Apps SDK and MCP apps with single-line integration, along with <strong className="text-white">Cashfree Agent Skills</strong> (npx package) and <strong className="text-white">Agent Toolkit</strong>, a framework-agnostic toolkit exposing Cashfree APIs for agentic frameworks.
+
                   </span>
+
                 </li>
+
                 <li className="flex items-start">
+
                   <span className="text-yellow-500 mr-3 mt-1">▹</span>
+
                   <span>
-                    Built AI-driven operational automations for service health monitoring with <strong className="text-white">automatic Jira ticket creation</strong>, significantly reducing manual engineering effort.
+
+                    Designed and deployed internal <strong className="text-white">MCP servers</strong> and multiple autonomous AI agents with user/agent-specific memory, integrated into Slack to let Business, Ops and Integrations teams <strong className="text-white">self-serve internal insights</strong>, cutting data lookup time from hours to <strong className="text-white">under 30 seconds</strong> with <strong className="text-white">120+ daily requests</strong>.
+
                   </span>
+
                 </li>
+
                 <li className="flex items-start">
+
                   <span className="text-yellow-500 mr-3 mt-1">▹</span>
+
                   <span>
-                    Created an <strong className="text-white">Agentic Payments demo</strong> showcased at the <strong className="text-white">Global Fintech Fest</strong>, demonstrating future-ready payment workflows.
+
+                    Built AI-driven operational automations including an autonomous workflow scanning all Helm configs across services to detect misconfigured/missing alerts with <strong className="text-white">automatic Jira ticket creation</strong>, and migrated service codebase from TypeScript to Java to reduce database connection overhead, both under <strong className="text-white">Engineering Resiliency</strong>.
+
                   </span>
+
                 </li>
+
+                <li className="flex items-start">
+
+                  <span className="text-yellow-500 mr-3 mt-1">▹</span>
+
+                  <span>
+
+                    Created an <strong className="text-white">end-to-end Agentic Payments demo</strong> showcased at the <strong className="text-white">Global Fintech Fest</strong>, demonstrating future-ready automated payment orchestration workflows.
+
+                  </span>
+
+                </li>
+
               </ul>
 
               <div className="flex flex-wrap gap-2 mt-auto">
