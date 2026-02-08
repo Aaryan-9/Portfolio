@@ -1,11 +1,11 @@
 import React from "react";
-import AaryanResume from "../assets/docs/AaryanResume.pdf";
+import AaryanResume from "../assets/docs/AaryansResume.pdf";
 
 export default function Resume() {
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = AaryanResume; // Use the imported file path
-    link.download = "AaryanResume.pdf"; // Replace with the desired file name
+    link.download = "AaryansResume.pdf"; // Replace with the desired file name
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
